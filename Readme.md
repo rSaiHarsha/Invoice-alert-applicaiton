@@ -25,14 +25,14 @@ Before you start, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/rSaiHarhsa/invoiceMate
    ```
-### 3. Setting Up the Backend
-1. Navigate to the backend directory:
+### 3. Setting Up
+1. Navigate to the each directory:
    ```bash
-   cd backend  
+   cd backend  and cd frontend
 
 2. "npm start"  to start the server for both frontend and backend 
 
-###4 Running the Application
+### 4 Running the Application
 1. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
 2. You should see the login page. Click the button to log in using your Google account.
 3. JWT tokens are used to maintain the session.
