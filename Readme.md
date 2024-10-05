@@ -1,7 +1,7 @@
 
 # Invoic-Alert-application
 
-##output 
+## output 
  1. Dashboard :
     ![image](https://github.com/user-attachments/assets/378436c9-3c81-407b-88b5-0898a7f81318)
  2. Notification :
