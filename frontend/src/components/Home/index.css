@@ -1,0 +1,104 @@
+.invoice_background_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99vw;
+  }
+  .main_heading {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #0f172a;
+    font-family: 500;
+  }
+  .tab_items_bg_container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    padding: 0px;
+  }
+  @media screen and (max-width: 768px) {
+    .tab_items_bg_container {
+      width: 90vw;
+    }
+  }
+  .repository_bg_container {
+    width: 80vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .failure_view_bg_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .failure_view_heading_element {
+    font-family: 'lobster';
+    font-size: 35px;
+    font-weight: 600;
+    color: #0f172a;
+  }
+  .failure_view_img_element {
+    height: 60vh;
+    width: 50vw;
+  }
+  .loading_element_bg_container {
+    width: 99vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all_invoices_container{
+    width: 80vw;
+    border-radius: 12px;
+    padding-left: 0px;
+    list-style-type: none;
+    overflow: hidden;  
+  }
+  .invoice_table_header{
+    display: flex;
+    background-color: #378caf;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    @media screen and (max-width: 768px) {
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    overflow-x: auto;
+  
+  }
+  .col_name{
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  width: 16%;
+  margin: 0px;
+  padding-right: 30px;
+  @media screen and (max-width: 768px) {
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  }
+
+.invoice_id_col{
+    width: 13%;
+}
+.email_col{
+    width: 19%;;
+}
